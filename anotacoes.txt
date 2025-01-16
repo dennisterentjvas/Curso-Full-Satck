@@ -24,4 +24,5 @@ Array: é uma estrutura de dados que armazendo uma coleção de elementos do mes
 a posição do elemmento na coleção. A indexação em arrays geralmente começa em zero, ou seja, o primeiro elemento está no indice xero, o segundo elemento está
 no indice um, e assim por diante.
 ==================================================================================================
-sasaasas testes
+
+#testando vscode via GITHUB utilizando o ponto final
