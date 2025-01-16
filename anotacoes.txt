@@ -24,5 +24,7 @@ Array: é uma estrutura de dados que armazendo uma coleção de elementos do mes
 a posição do elemmento na coleção. A indexação em arrays geralmente começa em zero, ou seja, o primeiro elemento está no indice xero, o segundo elemento está
 no indice um, e assim por diante.
 ==================================================================================================
-
+GIT PULL - Puxa as modificações do repositório remoto para o local
+GIT PUSG - Envia as modificações locais para o repositório remoto
+GIT CLONE - Clona repositório online para local
 #testando vscode via GITHUB utilizando o ponto final
