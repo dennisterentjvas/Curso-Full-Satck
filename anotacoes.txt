@@ -24,12 +24,29 @@ Array: é uma estrutura de dados que armazendo uma coleção de elementos do mes
 a posição do elemmento na coleção. A indexação em arrays geralmente começa em zero, ou seja, o primeiro elemento está no indice xero, o segundo elemento está
 no indice um, e assim por diante.
 ==================================================================================================
-GIT PULL - Puxa as modificações do repositório remoto para o local
-<<<<<<< HEAD
-GIT PUSh - Envia as modificações locais para o repositório remoto
-GIT CLONE - Clona repositório online para local
-=======
-GIT PUSG - Envia as modificações locais para o repositório remoto
-GIT CLONE - Clona repositório online para local
-#testando vscode via GITHUB utilizando o ponto final
->>>>>>> 2750c02d9a44ad7ad84fb5f7c451547f4ddf94ed
+Qual é o comando usado para adicionar todos os arquivos alterados para a área de preparação (staging)?
+R: git add .
+
+Qual é o comando usado pra criar e escrever uma mensagem de um commit?
+R: git commit -m “Minha mensagem"
+
+Qual é o comando usado para ver o histórico de commits de um projeto?
+R: git log
+
+Qual é o comando usado para verificar as informações sobre quais arquivos foram modificados,
+R: git status
+
+Qual o comando usado para adicionar apenas um arquivo alterado para a área de preparação (staging)?
+R: git add meu-arquivo.txt
+
+Qual é o comando usado para enviar as alterações locais para um repositório remoto?
+R: git push
+
+Qual é o comando usado para trazer as alterações de um repositório remoto para o seu local?
+R: git pull
+
+Qual comando é usado para clonar um repositório remoto para o seu computador local?
+R: git clone
+
+O que é um commit?
+R: Um commit é quando você cria um ponto na história, ou seja, quando você registra as alterações do seu código em um repositório;
