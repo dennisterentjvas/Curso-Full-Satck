@@ -25,5 +25,11 @@ a posição do elemmento na coleção. A indexação em arrays geralmente começ
 no indice um, e assim por diante.
 ==================================================================================================
 GIT PULL - Puxa as modificações do repositório remoto para o local
+<<<<<<< HEAD
 GIT PUSh - Envia as modificações locais para o repositório remoto
 GIT CLONE - Clona repositório online para local
+=======
+GIT PUSG - Envia as modificações locais para o repositório remoto
+GIT CLONE - Clona repositório online para local
+#testando vscode via GITHUB utilizando o ponto final
+>>>>>>> 2750c02d9a44ad7ad84fb5f7c451547f4ddf94ed
