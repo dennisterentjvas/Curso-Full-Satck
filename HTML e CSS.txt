@@ -1,0 +1,89 @@
+|<!--
+  Comentario
+  -->
+  <!--
+    - Abertura de TAG
+    - fechamento de tag
+    - Conteúdo
+    - Elementos
+    - Atributos ( Informações adicionais sobre tags)
+    -->
+
+    <h1>Título</h1>
+
+    <!-- Elementos vazios
+    - Não possuem conteúdo
+    - Poderão conter atributos
+    -->
+    <img src="" alt="">
+    <br/>
+
+    <!-- Espaçõs e quebras de linha
+    -->
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      <p>
+
+
+        </P>
+      Minus facere necessitatibus esse, ad aperiam dolorum sunt. Laborum id aliquid quibusdam corrupti recusandae, voluptates non quod, et aliquam deserunt quo suscipit.
+      </p>
+
+      <!--Fluxo HTML
+      - Block
+      -Inline
+      -->
+      <a href="#">Link</a>
+      <br>
+      <a href="#">Outro Link</a>
+      <!--Alinhamento de tags-->
+      <p> 
+      <em>Minus facere necessitatibus esse, ad aperiam dolorum sunt.</em>
+      <strong>Laborum id aliquid quibusdam corrupti recusandae, voluptates non quod</strong>, et aliquam deserunt quo suscipit.
+      </p>
+
+<!-- Caracteres Reservados-->
+<p>
+  &lt;teste impressão de uma tag reservada na tela&gt;
+  <p>
+    </P>
+<!-- Atributos HTML
+- Informações Extras
+- Configurações
+-->
+<img src="https://www.bing.com/images/search?view=detailV2&ccid=ggVEFA2u&id=331339BD34543620CCFA750910E748852CCEC155&thid=OIP.ggVEFA2uuXv0uRKdNjdVCwHaHa&mediaurl=https%3a%2f%2fwww.designi.com.br%2fimages%2fpreview%2f10665323.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.820544140daeb97bf4b9129d3637550b%3frik%3dVcHOLIVI5xAJdQ%26pid%3dImgRaw%26r%3d0&exph=1080&expw=1080&q=imagem&simid=607999170584061174&FORM=IRPRST&ck=6CC0986035DD1FA38C15B27C6F4E8693&selectedIndex=0&itb=0&ajaxhist=0&ajaxserp=0" alt="Imagem web">
+
+<!-- atributos booleanos
+- Não precisam de conteúdo, só acietam valores true e false
+-->
+<h1 hidden> Título 2</h1>
+
+<!-- Atributos Globais
+- Atributos que podem ser usados em qualquer elemento HTML
+-->
+
+<!--div
+- Como se fosse um registro de um elemento, para separar parte 
+dos códigos-->
+<p>
+</p>
+<div id "nome1"> </div>
+<div id "nome2"> </div>
+
+<!--Div Class
+- Atributo global utilizado para classificar elementos, 
+adiciona uma classe a tag-->
+
+<div class="Produto">Tenis </div>
+<div class="Produto">Camiseta </div>
+
+<!--Div data-
+- Atributo global utilizado para resgatar o contudo dentro da data- -->
+
+<div data-id="1234"></div>
+
+<!--Div style-
+- Atributo global utilizado para informar uma conta no conteúdo -->
+
+<div style="color: Blue;">Teste cor</div>
