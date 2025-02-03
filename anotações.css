@@ -1,0 +1,151 @@
+/*# CSS
+Cascading Stylessheet
+
+
+## O que é CSS?
+- Folha de estilho em cascata
+- Propriedade e valores
+- Estilos para o html 
+- Arquivos '.css'
+*/
+
+/*
+Anatomia
+
+* Delcaration
+*Selector
+*{} - context
+* Properties
+* Property value
+*/
+
+
+h1 {
+    color: blue;
+    font-size: 60px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+
+/* Cascading
+- Cascata
+- Hierarquia de regras
+*/
+
+p {
+  color: violet;
+}
+
+/* Especificidade
+- Casa seletor tem um peso
+- Soma dos pesos faz a declaração ser aplicada.
+
+#id = 100
+.clas = 10
+element = 1
+*/
+
+p#text.green {
+    color:black;
+}
+
+#texte {
+color: aqua;
+}
+
+.green {    
+    color: blueviolet;
+}
+
+p {
+    color: red;
+}
+
+/* Mais especifico
+
+- style
+- !important
+- Utilizar raramente, em casos muitos especificos
+*/
+
+#title {
+    font-size: 12px !important;
+}
+
+/*
+# Valores e unidades de medidas
+ Cada propriedade possuí valores
+ 'property: value'
+ '<data-type>'
+ > Estudo constante a fim de entender as propriedades e seus valores
+
+*/
+
+h1{
+    color: blue; /* color */
+    font-size: 32px; /* lenght */
+    letter-spacing: 2; /*number */
+    text-transform: uppercase; /*keyword */
+}
+
+
+
+
+
+
+
+/* Seletores
+- type | element | tag
+- id
+- class
+- atributo
+- universal
+*/
+
+
+[title] {
+    color: violet;
+}
+
+/* Combinator
+- Descendent
+- list
+- Next sibling
+- Child
+*/
+
+article p {
+    color:red;
+}
+
+span,mark{
+    color: red;
+}
+
+h2 + p {
+ color: rebeccapurple;
+}
+
+aside > ul {
+    margin-top: 10%;
+}
+
+/*
+Qual a sintaxe básica de uma regra CSS?
+R: Seletor { propriedade: valor; }
+
+O que são comentários em CSS?
+R: Instruções que são ignoradas pelo navegador.
+
+Qual a diferença entre um seletor e uma propriedade?
+R: Instruções que são ignoradas pelo navegador.
+
+Qual a diferença entre um seletor e uma propriedade?
+R:
+Um seletor é usado para selecionar elementos HTML, enquanto uma propriedade é usada para definir o estilo desses elementos.
+
+Qual a diferença entre um id e uma classe?
+
+R: Um id é usado para identificar um único elemento HTML, enquanto uma classe é usada para identificar um grupo de elementos HTML.
+
+*/
